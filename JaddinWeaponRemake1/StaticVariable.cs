@@ -8,7 +8,6 @@ namespace JaddinWeaponRemake1
 {
     public class StaticVariable
     {
-        
         public static string WeaponName_Text;
         public static string Category_Text;
         public static string Ezradius_Text;

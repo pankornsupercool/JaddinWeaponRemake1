@@ -86,7 +86,6 @@ namespace JaddinWeaponRemake1
                 Clear();
             }
         }
-
         void Clear()
         {
             StaticVariable.weaponId = 0;

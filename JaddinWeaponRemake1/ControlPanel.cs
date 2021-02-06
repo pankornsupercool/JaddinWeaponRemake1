@@ -17,7 +17,6 @@ namespace JaddinWeaponRemake1
         // Sql Connection
         static SqlConnection sqlCon = new SqlConnection(ConnectionString.GetConnectionString());
         
-
         // Dragging Form
         DraggingWindowFormVariable dragging = new DraggingWindowFormVariable();
 
@@ -56,7 +55,6 @@ namespace JaddinWeaponRemake1
             controlDataGridView.DataSource = data_AllData;
             controlDataGridView.Columns[0].Visible = false;
         }
-
 
 
 

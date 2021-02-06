@@ -40,18 +40,22 @@ namespace JaddinWeaponRemake1
             this.summaryWeaponButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.controlDataGridView)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // controlDataGridView
             // 
+            this.controlDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.controlDataGridView.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
             this.controlDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.controlDataGridView.Location = new System.Drawing.Point(177, 144);
+            this.controlDataGridView.Location = new System.Drawing.Point(4, 4);
             this.controlDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.controlDataGridView.Name = "controlDataGridView";
-            this.controlDataGridView.Size = new System.Drawing.Size(515, 307);
+            this.controlDataGridView.Size = new System.Drawing.Size(443, 299);
             this.controlDataGridView.TabIndex = 0;
             this.controlDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.controlDataGridView_CellClick);
             this.controlDataGridView.DoubleClick += new System.EventHandler(this.controlDataGridView_DoubleClick);
@@ -62,7 +66,7 @@ namespace JaddinWeaponRemake1
             this.showWeaponButton.Location = new System.Drawing.Point(177, 81);
             this.showWeaponButton.Margin = new System.Windows.Forms.Padding(4);
             this.showWeaponButton.Name = "showWeaponButton";
-            this.showWeaponButton.Size = new System.Drawing.Size(153, 55);
+            this.showWeaponButton.Size = new System.Drawing.Size(148, 55);
             this.showWeaponButton.TabIndex = 1;
             this.showWeaponButton.Text = "Show Weapon";
             this.showWeaponButton.UseVisualStyleBackColor = true;
@@ -70,11 +74,10 @@ namespace JaddinWeaponRemake1
             // 
             // showWeaponTypeButton
             // 
-            this.showWeaponTypeButton.Enabled = false;
-            this.showWeaponTypeButton.Location = new System.Drawing.Point(353, 81);
+            this.showWeaponTypeButton.Location = new System.Drawing.Point(333, 81);
             this.showWeaponTypeButton.Margin = new System.Windows.Forms.Padding(4);
             this.showWeaponTypeButton.Name = "showWeaponTypeButton";
-            this.showWeaponTypeButton.Size = new System.Drawing.Size(157, 55);
+            this.showWeaponTypeButton.Size = new System.Drawing.Size(151, 55);
             this.showWeaponTypeButton.TabIndex = 2;
             this.showWeaponTypeButton.Text = "Show Weapon Type";
             this.showWeaponTypeButton.UseVisualStyleBackColor = true;
@@ -82,11 +85,10 @@ namespace JaddinWeaponRemake1
             // 
             // showWeaponRadiusButton
             // 
-            this.showWeaponRadiusButton.Enabled = false;
-            this.showWeaponRadiusButton.Location = new System.Drawing.Point(533, 81);
+            this.showWeaponRadiusButton.Location = new System.Drawing.Point(492, 82);
             this.showWeaponRadiusButton.Margin = new System.Windows.Forms.Padding(4);
             this.showWeaponRadiusButton.Name = "showWeaponRadiusButton";
-            this.showWeaponRadiusButton.Size = new System.Drawing.Size(159, 55);
+            this.showWeaponRadiusButton.Size = new System.Drawing.Size(132, 55);
             this.showWeaponRadiusButton.TabIndex = 3;
             this.showWeaponRadiusButton.Text = "Show Weapon Radius";
             this.showWeaponRadiusButton.UseVisualStyleBackColor = true;
@@ -149,12 +151,11 @@ namespace JaddinWeaponRemake1
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.panel1.BackColor = System.Drawing.Color.LightGray;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(707, 59);
+            this.panel1.Size = new System.Drawing.Size(628, 59);
             this.panel1.TabIndex = 9;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -164,35 +165,26 @@ namespace JaddinWeaponRemake1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(263, 17);
+            this.label1.Location = new System.Drawing.Point(208, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 22);
             this.label1.TabIndex = 11;
             this.label1.Text = "Weapon Control Panel";
             // 
-            // button1
+            // panel2
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(629, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 59);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel2.Controls.Add(this.controlDataGridView);
+            this.panel2.Location = new System.Drawing.Point(177, 144);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(451, 307);
+            this.panel2.TabIndex = 10;
             // 
             // ControlPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 463);
+            this.ClientSize = new System.Drawing.Size(630, 463);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.summaryWeaponButton);
             this.Controls.Add(this.viewWeaponButton);
@@ -202,9 +194,7 @@ namespace JaddinWeaponRemake1
             this.Controls.Add(this.showWeaponRadiusButton);
             this.Controls.Add(this.showWeaponTypeButton);
             this.Controls.Add(this.showWeaponButton);
-            this.Controls.Add(this.controlDataGridView);
             this.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ControlPanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -213,6 +203,7 @@ namespace JaddinWeaponRemake1
             ((System.ComponentModel.ISupportInitialize)(this.controlDataGridView)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -229,8 +220,8 @@ namespace JaddinWeaponRemake1
         private System.Windows.Forms.Button viewWeaponButton;
         private System.Windows.Forms.Button summaryWeaponButton;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

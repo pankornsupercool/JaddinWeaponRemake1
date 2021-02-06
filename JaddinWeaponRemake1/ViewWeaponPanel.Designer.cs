@@ -43,7 +43,7 @@ namespace JaddinWeaponRemake1
             this.viewDataGridView.Location = new System.Drawing.Point(13, 101);
             this.viewDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.viewDataGridView.Name = "viewDataGridView";
-            this.viewDataGridView.Size = new System.Drawing.Size(625, 375);
+            this.viewDataGridView.Size = new System.Drawing.Size(536, 375);
             this.viewDataGridView.TabIndex = 0;
             // 
             // searchTextBox
@@ -66,9 +66,9 @@ namespace JaddinWeaponRemake1
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(290, 42);
+            this.searchButton.Location = new System.Drawing.Point(275, 42);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(154, 41);
+            this.searchButton.Size = new System.Drawing.Size(135, 41);
             this.searchButton.TabIndex = 3;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
@@ -76,9 +76,9 @@ namespace JaddinWeaponRemake1
             // 
             // viewAllButton
             // 
-            this.viewAllButton.Location = new System.Drawing.Point(484, 42);
+            this.viewAllButton.Location = new System.Drawing.Point(416, 42);
             this.viewAllButton.Name = "viewAllButton";
-            this.viewAllButton.Size = new System.Drawing.Size(154, 41);
+            this.viewAllButton.Size = new System.Drawing.Size(133, 41);
             this.viewAllButton.TabIndex = 4;
             this.viewAllButton.Text = "View All";
             this.viewAllButton.UseVisualStyleBackColor = true;
@@ -88,7 +88,7 @@ namespace JaddinWeaponRemake1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(651, 489);
+            this.ClientSize = new System.Drawing.Size(561, 489);
             this.Controls.Add(this.viewAllButton);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.label1);

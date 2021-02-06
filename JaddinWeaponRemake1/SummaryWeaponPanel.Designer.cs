@@ -72,7 +72,7 @@ namespace JaddinWeaponRemake1
             // gunSummaryLabel
             // 
             this.gunSummaryLabel.AutoSize = true;
-            this.gunSummaryLabel.Location = new System.Drawing.Point(65, 53);
+            this.gunSummaryLabel.Location = new System.Drawing.Point(93, 53);
             this.gunSummaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunSummaryLabel.Name = "gunSummaryLabel";
             this.gunSummaryLabel.Size = new System.Drawing.Size(16, 18);
@@ -82,7 +82,7 @@ namespace JaddinWeaponRemake1
             // totalSummaryLabel
             // 
             this.totalSummaryLabel.AutoSize = true;
-            this.totalSummaryLabel.Location = new System.Drawing.Point(65, 226);
+            this.totalSummaryLabel.Location = new System.Drawing.Point(93, 226);
             this.totalSummaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totalSummaryLabel.Name = "totalSummaryLabel";
             this.totalSummaryLabel.Size = new System.Drawing.Size(16, 18);
@@ -92,7 +92,7 @@ namespace JaddinWeaponRemake1
             // missileSummaryLabel
             // 
             this.missileSummaryLabel.AutoSize = true;
-            this.missileSummaryLabel.Location = new System.Drawing.Point(65, 142);
+            this.missileSummaryLabel.Location = new System.Drawing.Point(93, 142);
             this.missileSummaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.missileSummaryLabel.Name = "missileSummaryLabel";
             this.missileSummaryLabel.Size = new System.Drawing.Size(16, 18);
@@ -101,7 +101,7 @@ namespace JaddinWeaponRemake1
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.panel1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel1.Controls.Add(this.gunSummaryLabel);
             this.panel1.Controls.Add(this.totalSummaryLabel);
             this.panel1.Controls.Add(this.missileSummaryLabel);
@@ -120,8 +120,9 @@ namespace JaddinWeaponRemake1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SummaryWeaponPanel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SummaryWeaponPanel";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -35,7 +35,7 @@ namespace JaddinWeaponRemake1
             }
 
 
-            if (String.IsNullOrEmpty(weaponNameTextBox.Text))
+            if (String.IsNullOrWhiteSpace(weaponNameTextBox.Text))
             {
                 MessageBox.Show("Please enter the weapon name.");
             }
