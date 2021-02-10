@@ -84,6 +84,7 @@ namespace JaddinWeaponRemake1
                 param.Add("@Detail", detailWeaponTextBox.Text.Trim());
                 sqlCon.Execute("WeaponAddOrModify", param, commandType: CommandType.StoredProcedure);
                 Clear();
+                this.Hide();
             }
         }
         void Clear()

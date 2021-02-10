@@ -55,6 +55,7 @@ namespace JaddinWeaponRemake1
             this.controlDataGridView.Location = new System.Drawing.Point(4, 4);
             this.controlDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.controlDataGridView.Name = "controlDataGridView";
+            this.controlDataGridView.RowHeadersWidth = 51;
             this.controlDataGridView.Size = new System.Drawing.Size(443, 299);
             this.controlDataGridView.TabIndex = 0;
             this.controlDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.controlDataGridView_CellClick);
@@ -74,6 +75,7 @@ namespace JaddinWeaponRemake1
             // 
             // showWeaponTypeButton
             // 
+            this.showWeaponTypeButton.Enabled = false;
             this.showWeaponTypeButton.Location = new System.Drawing.Point(333, 81);
             this.showWeaponTypeButton.Margin = new System.Windows.Forms.Padding(4);
             this.showWeaponTypeButton.Name = "showWeaponTypeButton";
@@ -85,6 +87,7 @@ namespace JaddinWeaponRemake1
             // 
             // showWeaponRadiusButton
             // 
+            this.showWeaponRadiusButton.Enabled = false;
             this.showWeaponRadiusButton.Location = new System.Drawing.Point(492, 82);
             this.showWeaponRadiusButton.Margin = new System.Windows.Forms.Padding(4);
             this.showWeaponRadiusButton.Name = "showWeaponRadiusButton";
@@ -167,7 +170,7 @@ namespace JaddinWeaponRemake1
             this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(208, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 22);
+            this.label1.Size = new System.Drawing.Size(272, 28);
             this.label1.TabIndex = 11;
             this.label1.Text = "Weapon Control Panel";
             // 
@@ -181,7 +184,7 @@ namespace JaddinWeaponRemake1
             // 
             // ControlPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 463);
             this.Controls.Add(this.panel2);

@@ -46,6 +46,7 @@ namespace JaddinWeaponRemake1
                 param.Add("@WeaponID", StaticVariable.weaponId);
                 sqlCon.Execute("WeaponDeleteById", param, commandType: CommandType.StoredProcedure);
                 Clear();
+                this.Hide();
             }catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);

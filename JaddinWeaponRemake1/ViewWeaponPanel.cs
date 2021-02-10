@@ -125,13 +125,19 @@ namespace JaddinWeaponRemake1
         {
             viewDataGridView.Refresh();
             try
-            {
-                FillDataGridView_ViewPanel_Search();
+            {   
+                if(searchTextBox.Text != "")
+                    FillDataGridView_ViewPanel_Search();
+                else
+                {
+                    MessageBox.Show("Please enter weapon", "Weapon search!", MessageBoxButtons.OK);
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+            searchTextBox.Text = "";
         }
     }
     

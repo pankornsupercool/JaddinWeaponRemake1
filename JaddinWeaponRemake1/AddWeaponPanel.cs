@@ -59,8 +59,9 @@ namespace JaddinWeaponRemake1
                 param.Add("@Category", radioInput);
                 param.Add("@Ezradius", radiusWeaponTextBox.Text.Trim());
                 param.Add("@Detail", detailWeaponTextBox.Text.Trim());
-                sqlCon.Execute("WeaponAddOrModify", param, commandType: CommandType.StoredProcedure);
+                sqlCon.Execute("WeaponAdd", param, commandType: CommandType.StoredProcedure);
                 Clear();
+                this.Hide();
             }
         }
 

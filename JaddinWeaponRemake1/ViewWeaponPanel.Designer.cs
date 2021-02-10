@@ -40,9 +40,11 @@ namespace JaddinWeaponRemake1
             // viewDataGridView
             // 
             this.viewDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.viewDataGridView.Enabled = false;
             this.viewDataGridView.Location = new System.Drawing.Point(13, 101);
             this.viewDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.viewDataGridView.Name = "viewDataGridView";
+            this.viewDataGridView.RowHeadersWidth = 51;
             this.viewDataGridView.Size = new System.Drawing.Size(536, 375);
             this.viewDataGridView.TabIndex = 0;
             // 
@@ -51,7 +53,7 @@ namespace JaddinWeaponRemake1
             this.searchTextBox.Location = new System.Drawing.Point(19, 50);
             this.searchTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.searchTextBox.Name = "searchTextBox";
-            this.searchTextBox.Size = new System.Drawing.Size(227, 25);
+            this.searchTextBox.Size = new System.Drawing.Size(227, 29);
             this.searchTextBox.TabIndex = 1;
             // 
             // label1
@@ -60,7 +62,7 @@ namespace JaddinWeaponRemake1
             this.label1.Location = new System.Drawing.Point(16, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 18);
+            this.label1.Size = new System.Drawing.Size(120, 22);
             this.label1.TabIndex = 2;
             this.label1.Text = "Weapon Name";
             // 
@@ -86,7 +88,7 @@ namespace JaddinWeaponRemake1
             // 
             // ViewWeaponPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 489);
             this.Controls.Add(this.viewAllButton);
